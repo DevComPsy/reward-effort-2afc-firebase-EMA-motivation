@@ -14,7 +14,7 @@ fetch-data.ipynb: python example script to retrieve data from firebase if using 
 for hierarchical modelling 
 analysis/stan_models & analysis/stan_fits
 
-(you may need to change the source paths or re-fit models due to the way [cmstandr](https://mc-stan.org/cmdstanr/) works)
+You may need to change the source paths or re-fit models due to the way [cmstandr](https://mc-stan.org/cmdstanr/) works. To circumvent this I have provided rds files which contain posterior summary statistics for reproducing analyses and figures. 
 
 ## Task 
 Code for the task is in /public 
